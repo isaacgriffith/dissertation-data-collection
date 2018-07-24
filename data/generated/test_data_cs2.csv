@@ -1,0 +1,451 @@
+InstID,ChainID,GSZ,PS,PT,PF
+1,1,3.0,3.0,Factory Method,Creational
+2,1,3.0,3.0,Factory Method,Creational
+3,1,3.0,3.0,Factory Method,Creational
+4,1,3.0,4.0,Factory Method,Creational
+5,1,3.0,4.0,Factory Method,Creational
+6,1,3.0,4.0,Factory Method,Creational
+7,1,3.0,4.0,Factory Method,Creational
+8,1,3.0,4.0,Factory Method,Creational
+9,1,4.0,4.0,Factory Method,Creational
+10,1,4.0,4.0,Factory Method,Creational
+11,2,4.0,2.0,Factory Method,Creational
+12,2,4.0,2.0,Factory Method,Creational
+13,2,4.0,2.0,Factory Method,Creational
+14,2,5.0,2.0,Factory Method,Creational
+15,2,5.0,3.0,Factory Method,Creational
+16,2,5.0,3.0,Factory Method,Creational
+17,2,5.0,3.0,Factory Method,Creational
+18,2,5.0,3.0,Factory Method,Creational
+19,2,5.0,3.0,Factory Method,Creational
+20,2,5.0,3.0,Factory Method,Creational
+21,3,4.0,1.0,Factory Method,Creational
+22,3,5.0,1.0,Factory Method,Creational
+23,3,5.0,1.0,Factory Method,Creational
+24,3,5.0,1.0,Factory Method,Creational
+25,3,5.0,1.0,Factory Method,Creational
+26,3,5.0,1.0,Factory Method,Creational
+27,3,5.0,1.0,Factory Method,Creational
+28,3,5.0,1.0,Factory Method,Creational
+29,3,5.0,1.0,Factory Method,Creational
+30,3,5.0,2.0,Factory Method,Creational
+31,1,4.0,1.0,Singleton,Creational
+32,1,4.0,1.0,Singleton,Creational
+33,1,4.0,2.0,Singleton,Creational
+34,1,4.0,2.0,Singleton,Creational
+35,1,4.0,2.0,Singleton,Creational
+36,1,4.0,2.0,Singleton,Creational
+37,1,4.0,2.0,Singleton,Creational
+38,1,4.0,2.0,Singleton,Creational
+39,1,4.0,2.0,Singleton,Creational
+40,1,5.0,4.0,Singleton,Creational
+41,2,1.0,5.0,Singleton,Creational
+42,2,2.0,5.0,Singleton,Creational
+43,2,2.0,5.0,Singleton,Creational
+44,2,2.0,5.0,Singleton,Creational
+45,2,2.0,5.0,Singleton,Creational
+46,2,2.0,5.0,Singleton,Creational
+47,2,2.0,5.0,Singleton,Creational
+48,2,2.0,5.0,Singleton,Creational
+49,2,2.0,5.0,Singleton,Creational
+50,2,2.0,5.0,Singleton,Creational
+51,3,2.0,2.0,Singleton,Creational
+52,3,2.0,2.0,Singleton,Creational
+53,3,2.0,3.0,Singleton,Creational
+54,3,2.0,3.0,Singleton,Creational
+55,3,4.0,3.0,Singleton,Creational
+56,3,4.0,3.0,Singleton,Creational
+57,3,4.0,3.0,Singleton,Creational
+58,3,4.0,3.0,Singleton,Creational
+59,3,4.0,3.0,Singleton,Creational
+60,3,4.0,3.0,Singleton,Creational
+61,1,1.0,3.0,Prototype,Creational
+62,1,1.0,3.0,Prototype,Creational
+63,1,1.0,3.0,Prototype,Creational
+64,1,1.0,3.0,Prototype,Creational
+65,1,2.0,3.0,Prototype,Creational
+66,1,2.0,3.0,Prototype,Creational
+67,1,2.0,3.0,Prototype,Creational
+68,1,2.0,3.0,Prototype,Creational
+69,1,2.0,3.0,Prototype,Creational
+70,1,2.0,3.0,Prototype,Creational
+71,2,1.0,1.0,Prototype,Creational
+72,2,1.0,1.0,Prototype,Creational
+73,2,1.0,1.0,Prototype,Creational
+74,2,1.0,1.0,Prototype,Creational
+75,2,1.0,1.0,Prototype,Creational
+76,2,1.0,1.0,Prototype,Creational
+77,2,1.0,1.0,Prototype,Creational
+78,2,1.0,2.0,Prototype,Creational
+79,2,1.0,2.0,Prototype,Creational
+80,2,1.0,2.0,Prototype,Creational
+81,3,2.0,3.0,Prototype,Creational
+82,3,2.0,3.0,Prototype,Creational
+83,3,3.0,3.0,Prototype,Creational
+84,3,3.0,4.0,Prototype,Creational
+85,3,3.0,4.0,Prototype,Creational
+86,3,3.0,4.0,Prototype,Creational
+87,3,3.0,4.0,Prototype,Creational
+88,3,3.0,4.0,Prototype,Creational
+89,3,3.0,4.0,Prototype,Creational
+90,3,3.0,5.0,Prototype,Creational
+91,1,4.0,2.0,(Object) Adapter,Structural
+92,1,4.0,2.0,(Object) Adapter,Structural
+93,1,4.0,2.0,(Object) Adapter,Structural
+94,1,4.0,2.0,(Object) Adapter,Structural
+95,1,4.0,2.0,(Object) Adapter,Structural
+96,1,4.0,2.0,(Object) Adapter,Structural
+97,1,4.0,2.0,(Object) Adapter,Structural
+98,1,4.0,2.0,(Object) Adapter,Structural
+99,1,4.0,2.0,(Object) Adapter,Structural
+100,1,4.0,2.0,(Object) Adapter,Structural
+101,2,3.0,1.0,(Object) Adapter,Structural
+102,2,3.0,1.0,(Object) Adapter,Structural
+103,2,3.0,1.0,(Object) Adapter,Structural
+104,2,3.0,1.0,(Object) Adapter,Structural
+105,2,3.0,1.0,(Object) Adapter,Structural
+106,2,3.0,1.0,(Object) Adapter,Structural
+107,2,3.0,1.0,(Object) Adapter,Structural
+108,2,3.0,3.0,(Object) Adapter,Structural
+109,2,3.0,3.0,(Object) Adapter,Structural
+110,2,3.0,3.0,(Object) Adapter,Structural
+111,3,4.0,3.0,(Object) Adapter,Structural
+112,3,4.0,3.0,(Object) Adapter,Structural
+113,3,4.0,3.0,(Object) Adapter,Structural
+114,3,4.0,4.0,(Object) Adapter,Structural
+115,3,4.0,4.0,(Object) Adapter,Structural
+116,3,4.0,4.0,(Object) Adapter,Structural
+117,3,4.0,4.0,(Object) Adapter,Structural
+118,3,4.0,4.0,(Object) Adapter,Structural
+119,3,4.0,4.0,(Object) Adapter,Structural
+120,3,4.0,4.0,(Object) Adapter,Structural
+121,1,3.0,3.0,Bridge,Structural
+122,1,3.0,3.0,Bridge,Structural
+123,1,3.0,3.0,Bridge,Structural
+124,1,3.0,3.0,Bridge,Structural
+125,1,3.0,4.0,Bridge,Structural
+126,1,3.0,4.0,Bridge,Structural
+127,1,3.0,4.0,Bridge,Structural
+128,1,3.0,4.0,Bridge,Structural
+129,1,3.0,4.0,Bridge,Structural
+130,1,3.0,4.0,Bridge,Structural
+131,2,3.0,4.0,Bridge,Structural
+132,2,3.0,4.0,Bridge,Structural
+133,2,3.0,4.0,Bridge,Structural
+134,2,3.0,4.0,Bridge,Structural
+135,2,3.0,4.0,Bridge,Structural
+136,2,3.0,4.0,Bridge,Structural
+137,2,3.0,4.0,Bridge,Structural
+138,2,3.0,4.0,Bridge,Structural
+139,2,3.0,4.0,Bridge,Structural
+140,2,3.0,4.0,Bridge,Structural
+141,3,3.0,2.0,Bridge,Structural
+142,3,3.0,2.0,Bridge,Structural
+143,3,3.0,2.0,Bridge,Structural
+144,3,3.0,2.0,Bridge,Structural
+145,3,3.0,2.0,Bridge,Structural
+146,3,3.0,2.0,Bridge,Structural
+147,3,3.0,2.0,Bridge,Structural
+148,3,3.0,2.0,Bridge,Structural
+149,3,3.0,2.0,Bridge,Structural
+150,3,3.0,3.0,Bridge,Structural
+151,1,1.0,4.0,Composite,Structural
+152,1,1.0,4.0,Composite,Structural
+153,1,1.0,4.0,Composite,Structural
+154,1,1.0,4.0,Composite,Structural
+155,1,1.0,5.0,Composite,Structural
+156,1,2.0,5.0,Composite,Structural
+157,1,2.0,5.0,Composite,Structural
+158,1,2.0,5.0,Composite,Structural
+159,1,2.0,5.0,Composite,Structural
+160,1,2.0,5.0,Composite,Structural
+161,2,4.0,2.0,Composite,Structural
+162,2,4.0,2.0,Composite,Structural
+163,2,4.0,2.0,Composite,Structural
+164,2,4.0,2.0,Composite,Structural
+165,2,4.0,2.0,Composite,Structural
+166,2,4.0,2.0,Composite,Structural
+167,2,4.0,2.0,Composite,Structural
+168,2,4.0,2.0,Composite,Structural
+169,2,4.0,3.0,Composite,Structural
+170,2,4.0,3.0,Composite,Structural
+171,3,1.0,4.0,Composite,Structural
+172,3,1.0,4.0,Composite,Structural
+173,3,1.0,4.0,Composite,Structural
+174,3,1.0,4.0,Composite,Structural
+175,3,1.0,4.0,Composite,Structural
+176,3,1.0,4.0,Composite,Structural
+177,3,1.0,4.0,Composite,Structural
+178,3,2.0,4.0,Composite,Structural
+179,3,2.0,4.0,Composite,Structural
+180,3,3.0,5.0,Composite,Structural
+181,1,3.0,3.0,Decorator,Structural
+182,1,3.0,3.0,Decorator,Structural
+183,1,3.0,3.0,Decorator,Structural
+184,1,3.0,3.0,Decorator,Structural
+185,1,4.0,3.0,Decorator,Structural
+186,1,4.0,3.0,Decorator,Structural
+187,1,4.0,3.0,Decorator,Structural
+188,1,4.0,3.0,Decorator,Structural
+189,1,4.0,3.0,Decorator,Structural
+190,1,4.0,3.0,Decorator,Structural
+191,2,4.0,4.0,Decorator,Structural
+192,2,4.0,4.0,Decorator,Structural
+193,2,4.0,5.0,Decorator,Structural
+194,2,4.0,5.0,Decorator,Structural
+195,2,4.0,5.0,Decorator,Structural
+196,2,4.0,5.0,Decorator,Structural
+197,2,4.0,5.0,Decorator,Structural
+198,2,5.0,6.0,Decorator,Structural
+199,2,5.0,6.0,Decorator,Structural
+200,2,5.0,6.0,Decorator,Structural
+201,3,5.0,2.0,Decorator,Structural
+202,3,5.0,2.0,Decorator,Structural
+203,3,6.0,2.0,Decorator,Structural
+204,3,7.0,2.0,Decorator,Structural
+205,3,7.0,2.0,Decorator,Structural
+206,3,7.0,2.0,Decorator,Structural
+207,3,7.0,2.0,Decorator,Structural
+208,3,7.0,2.0,Decorator,Structural
+209,3,7.0,3.0,Decorator,Structural
+210,3,7.0,3.0,Decorator,Structural
+211,1,2.0,2.0,Proxy,Structural
+212,1,2.0,2.0,Proxy,Structural
+213,1,2.0,2.0,Proxy,Structural
+214,1,2.0,2.0,Proxy,Structural
+215,1,2.0,2.0,Proxy,Structural
+216,1,2.0,2.0,Proxy,Structural
+217,1,2.0,2.0,Proxy,Structural
+218,1,2.0,2.0,Proxy,Structural
+219,1,2.0,2.0,Proxy,Structural
+220,1,2.0,2.0,Proxy,Structural
+221,2,2.0,4.0,Proxy,Structural
+222,2,2.0,4.0,Proxy,Structural
+223,2,2.0,4.0,Proxy,Structural
+224,2,2.0,4.0,Proxy,Structural
+225,2,2.0,4.0,Proxy,Structural
+226,2,2.0,4.0,Proxy,Structural
+227,2,2.0,4.0,Proxy,Structural
+228,2,2.0,4.0,Proxy,Structural
+229,2,2.0,4.0,Proxy,Structural
+230,2,2.0,4.0,Proxy,Structural
+231,3,1.0,2.0,Proxy,Structural
+232,3,1.0,2.0,Proxy,Structural
+233,3,1.0,2.0,Proxy,Structural
+234,3,1.0,2.0,Proxy,Structural
+235,3,1.0,2.0,Proxy,Structural
+236,3,1.0,2.0,Proxy,Structural
+237,3,1.0,2.0,Proxy,Structural
+238,3,2.0,2.0,Proxy,Structural
+239,3,2.0,2.0,Proxy,Structural
+240,3,2.0,2.0,Proxy,Structural
+241,1,2.0,2.0,Chain of Responsibility,Behavioral
+242,1,2.0,3.0,Chain of Responsibility,Behavioral
+243,1,2.0,3.0,Chain of Responsibility,Behavioral
+244,1,2.0,3.0,Chain of Responsibility,Behavioral
+245,1,2.0,3.0,Chain of Responsibility,Behavioral
+246,1,2.0,3.0,Chain of Responsibility,Behavioral
+247,1,2.0,3.0,Chain of Responsibility,Behavioral
+248,1,2.0,3.0,Chain of Responsibility,Behavioral
+249,1,2.0,3.0,Chain of Responsibility,Behavioral
+250,1,2.0,3.0,Chain of Responsibility,Behavioral
+251,2,4.0,3.0,Chain of Responsibility,Behavioral
+252,2,4.0,3.0,Chain of Responsibility,Behavioral
+253,2,4.0,3.0,Chain of Responsibility,Behavioral
+254,2,4.0,3.0,Chain of Responsibility,Behavioral
+255,2,4.0,3.0,Chain of Responsibility,Behavioral
+256,2,4.0,3.0,Chain of Responsibility,Behavioral
+257,2,4.0,3.0,Chain of Responsibility,Behavioral
+258,2,4.0,3.0,Chain of Responsibility,Behavioral
+259,2,4.0,3.0,Chain of Responsibility,Behavioral
+260,2,4.0,3.0,Chain of Responsibility,Behavioral
+261,3,4.0,4.0,Chain of Responsibility,Behavioral
+262,3,4.0,4.0,Chain of Responsibility,Behavioral
+263,3,4.0,4.0,Chain of Responsibility,Behavioral
+264,3,4.0,4.0,Chain of Responsibility,Behavioral
+265,3,4.0,4.0,Chain of Responsibility,Behavioral
+266,3,4.0,4.0,Chain of Responsibility,Behavioral
+267,3,4.0,4.0,Chain of Responsibility,Behavioral
+268,3,4.0,4.0,Chain of Responsibility,Behavioral
+269,3,4.0,4.0,Chain of Responsibility,Behavioral
+270,3,5.0,4.0,Chain of Responsibility,Behavioral
+271,1,3.0,3.0,Command,Behavioral
+272,1,3.0,3.0,Command,Behavioral
+273,1,3.0,3.0,Command,Behavioral
+274,1,3.0,3.0,Command,Behavioral
+275,1,3.0,3.0,Command,Behavioral
+276,1,3.0,3.0,Command,Behavioral
+277,1,3.0,3.0,Command,Behavioral
+278,1,3.0,3.0,Command,Behavioral
+279,1,3.0,3.0,Command,Behavioral
+280,1,3.0,3.0,Command,Behavioral
+281,2,4.0,4.0,Command,Behavioral
+282,2,4.0,4.0,Command,Behavioral
+283,2,4.0,4.0,Command,Behavioral
+284,2,4.0,4.0,Command,Behavioral
+285,2,4.0,4.0,Command,Behavioral
+286,2,4.0,4.0,Command,Behavioral
+287,2,7.0,4.0,Command,Behavioral
+288,2,8.0,4.0,Command,Behavioral
+289,2,8.0,4.0,Command,Behavioral
+290,2,8.0,4.0,Command,Behavioral
+291,3,2.0,4.0,Command,Behavioral
+292,3,2.0,4.0,Command,Behavioral
+293,3,2.0,4.0,Command,Behavioral
+294,3,2.0,4.0,Command,Behavioral
+295,3,2.0,4.0,Command,Behavioral
+296,3,2.0,4.0,Command,Behavioral
+297,3,2.0,4.0,Command,Behavioral
+298,3,2.0,4.0,Command,Behavioral
+299,3,2.0,4.0,Command,Behavioral
+300,3,2.0,4.0,Command,Behavioral
+301,1,1.0,2.0,Observer,Behavioral
+302,1,1.0,2.0,Observer,Behavioral
+303,1,1.0,2.0,Observer,Behavioral
+304,1,2.0,3.0,Observer,Behavioral
+305,1,2.0,3.0,Observer,Behavioral
+306,1,2.0,4.0,Observer,Behavioral
+307,1,2.0,6.0,Observer,Behavioral
+308,1,2.0,6.0,Observer,Behavioral
+309,1,2.0,6.0,Observer,Behavioral
+310,1,2.0,6.0,Observer,Behavioral
+311,2,4.0,2.0,Observer,Behavioral
+312,2,4.0,2.0,Observer,Behavioral
+313,2,4.0,2.0,Observer,Behavioral
+314,2,5.0,2.0,Observer,Behavioral
+315,2,5.0,2.0,Observer,Behavioral
+316,2,5.0,2.0,Observer,Behavioral
+317,2,6.0,3.0,Observer,Behavioral
+318,2,6.0,3.0,Observer,Behavioral
+319,2,6.0,3.0,Observer,Behavioral
+320,2,6.0,3.0,Observer,Behavioral
+321,3,4.0,3.0,Observer,Behavioral
+322,3,4.0,3.0,Observer,Behavioral
+323,3,4.0,3.0,Observer,Behavioral
+324,3,4.0,3.0,Observer,Behavioral
+325,3,4.0,3.0,Observer,Behavioral
+326,3,4.0,3.0,Observer,Behavioral
+327,3,6.0,3.0,Observer,Behavioral
+328,3,6.0,3.0,Observer,Behavioral
+329,3,6.0,3.0,Observer,Behavioral
+330,3,6.0,3.0,Observer,Behavioral
+331,1,1.0,4.0,State,Behavioral
+332,1,1.0,4.0,State,Behavioral
+333,1,1.0,4.0,State,Behavioral
+334,1,1.0,4.0,State,Behavioral
+335,1,1.0,4.0,State,Behavioral
+336,1,1.0,4.0,State,Behavioral
+337,1,1.0,4.0,State,Behavioral
+338,1,1.0,4.0,State,Behavioral
+339,1,1.0,4.0,State,Behavioral
+340,1,1.0,4.0,State,Behavioral
+341,2,1.0,1.0,State,Behavioral
+342,2,1.0,1.0,State,Behavioral
+343,2,1.0,1.0,State,Behavioral
+344,2,1.0,1.0,State,Behavioral
+345,2,1.0,1.0,State,Behavioral
+346,2,1.0,1.0,State,Behavioral
+347,2,2.0,1.0,State,Behavioral
+348,2,2.0,1.0,State,Behavioral
+349,2,2.0,1.0,State,Behavioral
+350,2,2.0,1.0,State,Behavioral
+351,3,1.0,4.0,State,Behavioral
+352,3,1.0,4.0,State,Behavioral
+353,3,1.0,4.0,State,Behavioral
+354,3,1.0,4.0,State,Behavioral
+355,3,2.0,4.0,State,Behavioral
+356,3,2.0,4.0,State,Behavioral
+357,3,2.0,4.0,State,Behavioral
+358,3,2.0,4.0,State,Behavioral
+359,3,2.0,4.0,State,Behavioral
+360,3,2.0,4.0,State,Behavioral
+361,1,4.0,2.0,Strategy,Behavioral
+362,1,4.0,2.0,Strategy,Behavioral
+363,1,4.0,3.0,Strategy,Behavioral
+364,1,4.0,3.0,Strategy,Behavioral
+365,1,4.0,3.0,Strategy,Behavioral
+366,1,4.0,3.0,Strategy,Behavioral
+367,1,4.0,3.0,Strategy,Behavioral
+368,1,4.0,3.0,Strategy,Behavioral
+369,1,4.0,3.0,Strategy,Behavioral
+370,1,4.0,3.0,Strategy,Behavioral
+371,2,1.0,1.0,Strategy,Behavioral
+372,2,1.0,1.0,Strategy,Behavioral
+373,2,1.0,2.0,Strategy,Behavioral
+374,2,1.0,2.0,Strategy,Behavioral
+375,2,1.0,2.0,Strategy,Behavioral
+376,2,1.0,2.0,Strategy,Behavioral
+377,2,1.0,2.0,Strategy,Behavioral
+378,2,1.0,3.0,Strategy,Behavioral
+379,2,1.0,3.0,Strategy,Behavioral
+380,2,1.0,3.0,Strategy,Behavioral
+381,3,3.0,3.0,Strategy,Behavioral
+382,3,3.0,3.0,Strategy,Behavioral
+383,3,3.0,3.0,Strategy,Behavioral
+384,3,3.0,3.0,Strategy,Behavioral
+385,3,3.0,3.0,Strategy,Behavioral
+386,3,3.0,3.0,Strategy,Behavioral
+387,3,3.0,3.0,Strategy,Behavioral
+388,3,3.0,4.0,Strategy,Behavioral
+389,3,3.0,4.0,Strategy,Behavioral
+390,3,3.0,5.0,Strategy,Behavioral
+391,1,4.0,2.0,Template Method,Behavioral
+392,1,4.0,2.0,Template Method,Behavioral
+393,1,5.0,2.0,Template Method,Behavioral
+394,1,6.0,3.0,Template Method,Behavioral
+395,1,6.0,3.0,Template Method,Behavioral
+396,1,6.0,3.0,Template Method,Behavioral
+397,1,7.0,3.0,Template Method,Behavioral
+398,1,7.0,3.0,Template Method,Behavioral
+399,1,7.0,4.0,Template Method,Behavioral
+400,1,7.0,5.0,Template Method,Behavioral
+401,2,2.0,1.0,Template Method,Behavioral
+402,2,2.0,1.0,Template Method,Behavioral
+403,2,2.0,1.0,Template Method,Behavioral
+404,2,2.0,2.0,Template Method,Behavioral
+405,2,2.0,2.0,Template Method,Behavioral
+406,2,2.0,2.0,Template Method,Behavioral
+407,2,2.0,2.0,Template Method,Behavioral
+408,2,2.0,2.0,Template Method,Behavioral
+409,2,2.0,2.0,Template Method,Behavioral
+410,2,2.0,2.0,Template Method,Behavioral
+411,3,1.0,3.0,Template Method,Behavioral
+412,3,1.0,3.0,Template Method,Behavioral
+413,3,1.0,3.0,Template Method,Behavioral
+414,3,1.0,3.0,Template Method,Behavioral
+415,3,1.0,3.0,Template Method,Behavioral
+416,3,1.0,3.0,Template Method,Behavioral
+417,3,1.0,3.0,Template Method,Behavioral
+418,3,4.0,3.0,Template Method,Behavioral
+419,3,4.0,4.0,Template Method,Behavioral
+420,3,4.0,4.0,Template Method,Behavioral
+421,1,4.0,3.0,Visitor,Behavioral
+422,1,4.0,3.0,Visitor,Behavioral
+423,1,4.0,3.0,Visitor,Behavioral
+424,1,5.0,3.0,Visitor,Behavioral
+425,1,5.0,3.0,Visitor,Behavioral
+426,1,5.0,3.0,Visitor,Behavioral
+427,1,5.0,3.0,Visitor,Behavioral
+428,1,5.0,3.0,Visitor,Behavioral
+429,1,5.0,3.0,Visitor,Behavioral
+430,1,5.0,3.0,Visitor,Behavioral
+431,2,2.0,2.0,Visitor,Behavioral
+432,2,2.0,2.0,Visitor,Behavioral
+433,2,2.0,3.0,Visitor,Behavioral
+434,2,4.0,3.0,Visitor,Behavioral
+435,2,4.0,3.0,Visitor,Behavioral
+436,2,4.0,3.0,Visitor,Behavioral
+437,2,4.0,3.0,Visitor,Behavioral
+438,2,6.0,3.0,Visitor,Behavioral
+439,2,6.0,3.0,Visitor,Behavioral
+440,2,6.0,3.0,Visitor,Behavioral
+441,3,3.0,3.0,Visitor,Behavioral
+442,3,3.0,3.0,Visitor,Behavioral
+443,3,3.0,3.0,Visitor,Behavioral
+444,3,3.0,4.0,Visitor,Behavioral
+445,3,3.0,4.0,Visitor,Behavioral
+446,3,4.0,4.0,Visitor,Behavioral
+447,3,4.0,4.0,Visitor,Behavioral
+448,3,4.0,4.0,Visitor,Behavioral
+449,3,4.0,4.0,Visitor,Behavioral
+450,3,4.0,4.0,Visitor,Behavioral
