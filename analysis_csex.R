@@ -18,6 +18,15 @@ attach(myData)
 pairs.panels(myData, ellipse=F)
 
 # Conduct Sample Size Analysis (t-test only)
+sd = 0.29
+sig.level = 0.05
+type = "one.sample"
+strict = T
+power = 0.95
+delta = 0.03
+alt = "two.sided"
+
+power.t.test(n = NULL, delta = delta, power = power, sd = sd, type = type, alternative = alt)
 
 # One-sample t-test
 ## Check Assumptions
@@ -58,6 +67,8 @@ one_sample.rand.test <- function(data, mu0=0, rep=50000, test="ts", sig=0.95) {
   D <- data - mu0
   meanD <- mean(D)
   
+  stddev <- sd(D)
+  
   upper <- 0
   lower <- 0
   n <- length(D)
@@ -65,6 +76,7 @@ one_sample.rand.test <- function(data, mu0=0, rep=50000, test="ts", sig=0.95) {
   cat(paste("Sample Size:", n))
   cat("\n\n")
   cat(paste("Mean Difference:", meanD,"\n"))
+  cat(paste("Std. Dev.:", stddev, "\n"))
   
   # Begin sign randomizations
   meanDvec <- 1:rep
@@ -117,4 +129,12 @@ one_sample.rand.test(Security)
 one_sample.rand.test(TechDebt)
 
 # Conduct Power Analysis (t-test only)
+sd = 0.3
+sig.level = 0.05
+type = "one.sample"
+strict = T
+n = 1500
+delta = 0.03
+alt = "two.sided"
 
+power.t.test(n, delta = delta, power = NULL, sd = sd, type = type, alternative = alt)
