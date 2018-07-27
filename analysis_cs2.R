@@ -12,7 +12,7 @@ head(myData)
 
 
 # Setup the longitudinal data model.
-lmer.1 <- lmer(GSZ~PS + PF + PT + (PF + PT + PS | ChainID), data=myData, REML=F)
+lmer.1 <- lmer(GSZ~PS + PF + PT + (PF + PT + PS | ChainID), data=myData, REML=T)
 summary(lmer.1)
 
 # Validate Assumptions
