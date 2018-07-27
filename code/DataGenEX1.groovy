@@ -31,29 +31,31 @@ final Appendable out = Files.newBufferedWriter(p, StandardOpenOption.CREATE, Sta
 final CSVPrinter printer = CSVFormat.DEFAULT.withHeader("ID", "PT", "GT", "GS", "FunctionalSuitability", "Maintainability", "PerformanceEfficiency", "Reliability", "Security").print(out)
 BetaDistribution dist = new BetaDistribution(2, 5)
 
-patternTypes.each { pt ->
-    grimeTypes.each { gt ->
-        severity.each { gs ->
-            currentID += 1
-            Object[] record = [
-                    currentID,
-                    pt,
-                    gt,
-                    gs,
-                    nextNum(dist, rand),
-                    nextNum(dist, rand),
-                    nextNum(dist, rand),
-                    nextNum(dist, rand),
-                    nextNum(dist, rand)
-            ]
-            // print record
-            try {
-                printer.printRecord(record)
-            } catch (IOException e) {
-                e.printStackTrace()
-            }
-        }
-    }
+(1..2).each {
+  patternTypes.each { pt ->
+      grimeTypes.each { gt ->
+          severity.each { gs ->
+              currentID += 1
+              Object[] record = [
+                      currentID,
+                      pt,
+                      gt,
+                      gs,
+                      nextNum(dist, rand),
+                      nextNum(dist, rand),
+                      nextNum(dist, rand),
+                      nextNum(dist, rand),
+                      nextNum(dist, rand)
+              ]
+              // print record
+              try {
+                  printer.printRecord(record)
+              } catch (IOException e) {
+                  e.printStackTrace()
+              }
+          }
+      }
+  }
 }
 printer.close()
 

@@ -1,8 +1,8 @@
-myData <- read.csv(file="data/generated/test_data_cs1.csv", header=T, sep=",")
-
 require(rCBA)
+require(arules)
+require(arulesViz)
 
-data("iris")
+myData <- read.csv(file="data/generated/test_data_cs1.csv", header=T, sep=",")
 
 output <- rCBA::buildFPGrowth(iris, "Species")
 model <- output$model
@@ -11,7 +11,6 @@ table(predictions)
 
 rules = fpgrowth(myData, support=0.03, confidence=0.03, maxLength=2)
 
-require(arules)
 data("Adult")
 rules <- apriori(Adult, parameter = list(supp = 0.5, conf = 0.9, target = "rules"))
 summary(rules)
@@ -29,7 +28,6 @@ summary(items)
 inspect(items, subset = rhs %pin% "PIG")
 
 # Graph plot
-require(arulesViz)
 subrules2 <- head(items, n = 50, by = "support")
 plot(subrules2, method = "graph")
 
