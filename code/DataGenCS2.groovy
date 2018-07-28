@@ -23,23 +23,30 @@ GeometricDistribution distGS = new GeometricDistribution(0.8d)
 GeometricDistribution distPS = new GeometricDistribution(0.8d)
 Path p = Paths.get("test_data_cs2.csv")
 final Appendable out = Files.newBufferedWriter(p, StandardOpenOption.CREATE, StandardOpenOption.WRITE)
-final CSVPrinter printer = CSVFormat.DEFAULT.withHeader("InstID", "ChainID", "GSZ", "PS", "PT", "PF").print(out)
+final CSVPrinter printer = CSVFormat.DEFAULT.withHeader("InstID", "ChainID", "GSZ.mod", "GSZ.cls", "GSZ.org", "GSZ.total", "PS", "PT", "PF").print(out)
 
 def instID = 0
 patternFamilies.each { pf, types ->
     types.each { pt ->
-        (1..3).each { chainID ->
-            grimeSize = rand.nextInt(4) + 1
-            patternSize = rand.nextInt(4) + 1
+        (1..15).each { chainID ->
+            def grimeSizeMod = rand.nextInt(4)
+            def grimeSizeCls = rand.nextInt(4)
+            def grimeSizeOrg = rand.nextInt(4)
+            def patternSize = rand.nextInt(4) + 1
             (1..10).each {
                 instID++
-                grimeSize += nextNum(distGS, rand)
+                grimeSizeMod += nextNum(distGS, rand)
+                grimeSizeCls += nextNum(distGS, rand)
+                grimeSizeOrg += nextNum(distGS, rand)
                 patternSize += nextNum(distPS, rand)
 
                 Object[] record = [
                         instID,
                         chainID,
-                        grimeSize,
+                        grimeSizeMod,
+                        grimeSizeCls,
+                        grimeSizeOrg,
+                        grimeSizeMod + grimeSizeCls + grimeSizeOrg,
                         patternSize,
                         pt,
                         pf
